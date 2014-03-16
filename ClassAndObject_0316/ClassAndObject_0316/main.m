@@ -20,6 +20,8 @@ int main(int argc, const char * argv[])
         NSLog(@"person age = %d",[person age]);
         Person *person_1 = [[Person alloc] init];
         NSLog(@"person_1 : %p",person_1);
+        NSLog(@"person self class : %@",[[person self]class]);
+        NSLog(@"person super class : %@",[[person superclass] class]);
     }
     return 0;
 }

@@ -11,6 +11,7 @@
 		3BA7756518D5E0880048070B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7756418D5E0880048070B /* main.m */; };
 		3BA7756918D5E0880048070B /* ClassAndObject_0316.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BA7756818D5E0880048070B /* ClassAndObject_0316.1 */; };
 		3BA7757118D5E0C30048070B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7757018D5E0C30048070B /* Person.m */; };
+		3BFAE05D18E06D9C00E93E09 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAE05C18E06D9C00E93E09 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		3BA7756F18D5E0C30048070B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3BA7757018D5E0C30048070B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		3BA7757218D5E8660048070B /* 程序执行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "程序执行.png"; sourceTree = "<group>"; };
+		3BFAE05B18E06D9C00E93E09 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		3BFAE05C18E06D9C00E93E09 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				3BA7756418D5E0880048070B /* main.m */,
 				3BA7756F18D5E0C30048070B /* Person.h */,
 				3BA7757018D5E0C30048070B /* Person.m */,
+				3BFAE05B18E06D9C00E93E09 /* Student.h */,
+				3BFAE05C18E06D9C00E93E09 /* Student.m */,
 				3BA7756818D5E0880048070B /* ClassAndObject_0316.1 */,
 				3BA7756618D5E0880048070B /* Supporting Files */,
 			);
@@ -148,6 +153,7 @@
 			files = (
 				3BA7757118D5E0C30048070B /* Person.m in Sources */,
 				3BA7756518D5E0880048070B /* main.m in Sources */,
+				3BFAE05D18E06D9C00E93E09 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +267,7 @@
 				3BA7756E18D5E0880048070B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

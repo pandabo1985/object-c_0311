@@ -7,8 +7,9 @@
 //
 
 #import "Person.h"
-
+#import "Student.h"
 @implementation Person
+
 
 
 //方法声明
@@ -17,6 +18,7 @@
     if (self == [super init]) {
         age = _age;
         identify = _identify;
+        stu =[[Student alloc] init];
     }
     return self;
 }

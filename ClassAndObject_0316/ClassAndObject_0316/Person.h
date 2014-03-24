@@ -7,12 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Student;
 
 @interface Person : NSObject
 {
     //实例变量声明
     int identify;
     int age;
+    Student *stu;
 }
 
 //方法声明

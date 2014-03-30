@@ -69,7 +69,7 @@ int main(int argc, const char * argv[])
 //        [car2 fuck];
         
         @try {
-            [car2 fuck];
+//            [car2 fuck];
         }
         @catch (NSException *exception) {
             NSLog(@"catch exception %@ %@",[exception name],[exception reason]);

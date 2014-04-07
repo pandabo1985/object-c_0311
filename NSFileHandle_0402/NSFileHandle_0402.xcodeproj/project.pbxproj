@@ -10,6 +10,8 @@
 		3B51DC8118EC3E060046CC75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B51DC8018EC3E060046CC75 /* Foundation.framework */; };
 		3B51DC8418EC3E060046CC75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B51DC8318EC3E060046CC75 /* main.m */; };
 		3B51DC8818EC3E060046CC75 /* NSFileHandle_0402.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B51DC8718EC3E060046CC75 /* NSFileHandle_0402.1 */; };
+		3B5AAB8F18EFA892009904F2 /* WriteDataFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AAB8E18EFA892009904F2 /* WriteDataFile.m */; };
+		3BDF7D2D18F2575600E0EA0B /* ReadFileToWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDF7D2C18F2575600E0EA0B /* ReadFileToWrite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		3B51DC8318EC3E060046CC75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B51DC8618EC3E060046CC75 /* NSFileHandle_0402-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle_0402-Prefix.pch"; sourceTree = "<group>"; };
 		3B51DC8718EC3E060046CC75 /* NSFileHandle_0402.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSFileHandle_0402.1; sourceTree = "<group>"; };
+		3B5AAB8D18EFA892009904F2 /* WriteDataFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteDataFile.h; sourceTree = "<group>"; };
+		3B5AAB8E18EFA892009904F2 /* WriteDataFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteDataFile.m; sourceTree = "<group>"; };
+		3BDF7D2B18F2575600E0EA0B /* ReadFileToWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadFileToWrite.h; sourceTree = "<group>"; };
+		3BDF7D2C18F2575600E0EA0B /* ReadFileToWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadFileToWrite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				3B51DC8318EC3E060046CC75 /* main.m */,
+				3B5AAB8D18EFA892009904F2 /* WriteDataFile.h */,
+				3B5AAB8E18EFA892009904F2 /* WriteDataFile.m */,
+				3BDF7D2B18F2575600E0EA0B /* ReadFileToWrite.h */,
+				3BDF7D2C18F2575600E0EA0B /* ReadFileToWrite.m */,
 				3B51DC8718EC3E060046CC75 /* NSFileHandle_0402.1 */,
 				3B51DC8518EC3E060046CC75 /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B51DC8418EC3E060046CC75 /* main.m in Sources */,
+				3BDF7D2D18F2575600E0EA0B /* ReadFileToWrite.m in Sources */,
+				3B5AAB8F18EFA892009904F2 /* WriteDataFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +165,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -191,7 +203,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -253,6 +265,7 @@
 				3B51DC8D18EC3E060046CC75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

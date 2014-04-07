@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WriteDataFile.h"
+#import "ReadFileToWrite.h"
 
 int main(int argc, const char * argv[])
 {
@@ -54,7 +56,28 @@ int main(int argc, const char * argv[])
         [inFileHandle closeFile];
         [outFileHandle closeFile];
         
+        
+        
+        
     }
+    
+//    @autoreleasepool {
+//        NSLog(@"========date=============");
+//        WriteDataFile *dataFile = [[WriteDataFile alloc] init];
+//        [dataFile runWrite];
+//        [dataFile release];
+//         [[NSRunLoop currentRunLoop]run];
+//    }
+    
+    
+    @autoreleasepool {
+       
+        NSLog(@"=======***********========");
+        ReadFileToWrite *readToWri = [[ReadFileToWrite alloc] init];
+        [readToWri runReadeToWrite];
+        [readToWri release];
+    }
+   
     return 0;
 }
 

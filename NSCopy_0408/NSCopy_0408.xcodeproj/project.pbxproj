@@ -11,6 +11,8 @@
 		3B0EFCEB18F4302800110CD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0EFCEA18F4302800110CD3 /* main.m */; };
 		3B0EFCEF18F4302800110CD3 /* NSCopy_0408.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B0EFCEE18F4302800110CD3 /* NSCopy_0408.1 */; };
 		3B0EFCF718F43A1F00110CD3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0EFCF618F43A1F00110CD3 /* Person.m */; };
+		3BB8B96E18F5772B00E65B84 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8B96D18F5772B00E65B84 /* Car.m */; };
+		3BB8B97118F5774000E65B84 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8B97018F5774000E65B84 /* Engine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		3B0EFCEE18F4302800110CD3 /* NSCopy_0408.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSCopy_0408.1; sourceTree = "<group>"; };
 		3B0EFCF518F43A1F00110CD3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3B0EFCF618F43A1F00110CD3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3BB8B96C18F5772B00E65B84 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		3BB8B96D18F5772B00E65B84 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		3BB8B96F18F5774000E65B84 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		3BB8B97018F5774000E65B84 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,10 @@
 				3B0EFCEA18F4302800110CD3 /* main.m */,
 				3B0EFCF518F43A1F00110CD3 /* Person.h */,
 				3B0EFCF618F43A1F00110CD3 /* Person.m */,
+				3BB8B96C18F5772B00E65B84 /* Car.h */,
+				3BB8B96D18F5772B00E65B84 /* Car.m */,
+				3BB8B96F18F5774000E65B84 /* Engine.h */,
+				3BB8B97018F5774000E65B84 /* Engine.m */,
 				3B0EFCEE18F4302800110CD3 /* NSCopy_0408.1 */,
 				3B0EFCEC18F4302800110CD3 /* Supporting Files */,
 			);
@@ -144,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB8B96E18F5772B00E65B84 /* Car.m in Sources */,
+				3BB8B97118F5774000E65B84 /* Engine.m in Sources */,
 				3B0EFCEB18F4302800110CD3 /* main.m in Sources */,
 				3B0EFCF718F43A1F00110CD3 /* Person.m in Sources */,
 			);
@@ -259,6 +271,7 @@
 				3B0EFCF418F4302800110CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

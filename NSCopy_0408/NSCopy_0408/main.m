@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 #import "Person.h"
+#import "Car.h"
+#import "Engine.h"
 
 int main(int argc, const char * argv[])
 {
@@ -37,7 +39,7 @@ int main(int argc, const char * argv[])
             [muArray addObject:object];
             [object release];
         }
-
+        
         for (NSObject *obj in muArray) {
             NSLog(@"point %p, reatinCount = %ld",obj,[obj retainCount]);
         }
@@ -58,6 +60,21 @@ int main(int argc, const char * argv[])
         NSLog(@"person = %p,personCopy = %p",person,personCopy);
         NSLog(@"person.age = %p,personCopy.age = %p",person.age,personCopy.age);
         NSLog(@"person.name = %p,personCopy.name = %p",person.name,personCopy.name);
+        
+        NSLog(@"-----------Car---------------");
+        Car *car = [[Car alloc] init];
+        Engine *engine = [[Engine alloc] init];
+        car.engine = engine;
+        [engine release];
+        car.weight = @100;
+        car.name = @"fuckYou";
+        
+        Car *car2 = [car copy];
+        NSLog(@"car = %p, car2 = %p",car,car2);
+        NSLog(@"car.engine = %p, car2.engine = %p",car.engine,car2.engine);
+        NSLog(@"car.name = %p, car2.name = %p",car.name,car2.name);
+        [car release];
+        [car2 release];
         
     }
     return 0;

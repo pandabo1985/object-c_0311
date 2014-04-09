@@ -28,7 +28,7 @@
 //    person.name = [_name copy];
     person.name =[_name mutableCopy];
     person.age = [_age copy];
-    return [person autorelease];
+    return person;
 }
 
 @end

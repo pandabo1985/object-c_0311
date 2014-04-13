@@ -77,6 +77,7 @@ int main(int argc, const char * argv[])
         }
         
         NSLog(@"personArray = %@",personArray);
+        
     }
     return 0;
 }

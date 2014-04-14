@@ -29,7 +29,7 @@
         float readSize = [readSizeNum floatValue];
         if ([object isKindOfClass:[FileHandle class]]) {
             FileHandle *handle = (FileHandle *)object;
-              float fileSize = fileHandle.fileSize;
+              float fileSize = handle.fileSize;
             float result = readSize /fileSize *100;
             NSLog(@"%0.1f",result);
         }
@@ -42,7 +42,8 @@
 }
 
 -(void)dealloc{
-    
+    [fileHandle removeObserver:self forKeyPath:@"readeSize"];
+    [fileHandle release];
     [super dealloc];
 }
 

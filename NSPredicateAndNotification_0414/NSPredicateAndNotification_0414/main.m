@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 
+#import "Father.h"
+#import "Child.h"
+
 int main(int argc, const char * argv[])
 {
     
@@ -45,6 +48,10 @@ int main(int argc, const char * argv[])
         //数组过滤
         NSArray *filterArray_new = [array filteredArrayUsingPredicate:predicate_new];
         NSLog(@"filterArray = %@",filterArray_new);
+        
+        Father *fater = [[Father alloc] init];
+        Child *child = [[Child alloc] init];
+        [[NSRunLoop  currentRunLoop] run];
         
     }
     return 0;

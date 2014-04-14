@@ -11,6 +11,8 @@
 		3B7393D718FC1B07005353F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7393D618FC1B07005353F9 /* main.m */; };
 		3B7393DB18FC1B07005353F9 /* NSPredicateAndNotification_0414.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B7393DA18FC1B07005353F9 /* NSPredicateAndNotification_0414.1 */; };
 		3B7393E318FC1B43005353F9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7393E218FC1B43005353F9 /* Person.m */; };
+		3B7393E618FC291B005353F9 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7393E518FC291B005353F9 /* Child.m */; };
+		3B7393E918FC2A9A005353F9 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7393E818FC2A9A005353F9 /* Father.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		3B7393DA18FC1B07005353F9 /* NSPredicateAndNotification_0414.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSPredicateAndNotification_0414.1; sourceTree = "<group>"; };
 		3B7393E118FC1B43005353F9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3B7393E218FC1B43005353F9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3B7393E418FC291B005353F9 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		3B7393E518FC291B005353F9 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		3B7393E718FC2A9A005353F9 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		3B7393E818FC2A9A005353F9 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,10 @@
 				3B7393D618FC1B07005353F9 /* main.m */,
 				3B7393E118FC1B43005353F9 /* Person.h */,
 				3B7393E218FC1B43005353F9 /* Person.m */,
+				3B7393E418FC291B005353F9 /* Child.h */,
+				3B7393E518FC291B005353F9 /* Child.m */,
+				3B7393E718FC2A9A005353F9 /* Father.h */,
+				3B7393E818FC2A9A005353F9 /* Father.m */,
 				3B7393DA18FC1B07005353F9 /* NSPredicateAndNotification_0414.1 */,
 				3B7393D818FC1B07005353F9 /* Supporting Files */,
 			);
@@ -144,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7393E618FC291B005353F9 /* Child.m in Sources */,
+				3B7393E918FC2A9A005353F9 /* Father.m in Sources */,
 				3B7393E318FC1B43005353F9 /* Person.m in Sources */,
 				3B7393D718FC1B07005353F9 /* main.m in Sources */,
 			);
